@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TO-DO LIST</title>
+        <link rel="icon" type="jpg/png" href="./icon.png">
+        <link rel="stylesheet" type="text/css" href="./index.css">
+    </head>
+    <body>
+        <!-- to do list content -->
+        <div class="container">
+            <!-- heading div -->
+            <div>
+                <h1>TO-DO List</h1>
+                <img src="./icon.png" alt="icon">
+            </div>
+             <div>
+                <input type="text" id="taskAdd">
+                <button id="add" onclick="addTask()">ADD</button>
+            </div>
+            <ul id="task-box">
+                <!-- <li><span></span>TASK<span>X</span></li> -->
+            </ul>
+            <button id="delete" onclick="del()">DELETE</button> 
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
